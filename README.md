@@ -1,38 +1,17 @@
-# SWE3033: Database Project (Fall 2023)
 
-SKKU Database Project Fall 2023
 
-- Instructor: Prof.
-- TA
-  - Kyongshik Lee (kyongshikl@gmail.com)
+## MySQL / TPC-C Installation
+This week, you will learn how to run the TPC-C benchmark on MySQL 5.7. Follow the guide below.
 
-## Introduction
+> NOTE: This lab is based on the Linux environment.
 
-Almost every important computer application must manage, update, and query databases using a database system(s) that best fits its workload. In this course, you will learn popular database systems and their applications.
+## Instructions
+### Mount devices (Optional)
+- If you have more than one storage device on your PC, read and try this guide to separate data and log devices.
 
-- MySQL and TPC-C (OLTP workload)
-- TBA
+### 1. Install MySQL 5.7 and TPC-C
+- Follow the installation guide to install and run TPC-C benchmark on MySQL 5.7.
 
-## Schedule
-
-| Week # | Content | TA | 
-|---|---|--- |
-| 1 | [Introduction to MySQL and TPC-C benchmark]() | Kyongshik Lee | 
-| 2 | [Run TPC-C and analyze the results]()         | Kyongshik Lee |
-| 3 | [Measure MySQL performance by varying the buffer size]() | Kyongshik Lee | 
-| 4 | [Measure ratio of write types by varying the buffer size]() | Kyongshik Lee | 
-| 5 | []() | Kyongshik Lee | 
-| 6 | TBA | |
-| 7 | TBA | |
-| 8 | **Mid-term exam** | |
-| 9 | TBA | | 
-| 10 | TBA | |
-| 11 | TBA | |
-| 12 | TBA | | 
-| 13 | TBA | |
-| 14 | TBA | |
-| 15 | TBA | | 
-
-## Contact
-Please feel free to contact the teaching assistant via email: 
-  - Kyongshik Lee (kyongshikl@gmail.com)
+### 2. Run the TPC-C benchmark
+- Run the benchmark and analyze the results
+- Refer to the performance analysis guide to gather performance metrics while running the TPC-C benchmark on MySQL 5.7.
