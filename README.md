@@ -3,7 +3,9 @@
 ## MySQL / TPC-C Installation
 In this article, you will learn how to run the TPC-C benchmark on MySQL 5.7. Follow the guide below.
 
-> **NOTE**: This guide is based on **Ubuntu 18.04**. If you use a different environment, you may encounter some errors. You will need to resolve any errors that occur in a different environment yourself if you don't use Ubuntu version 18.04.
+> **NOTE**: This guide is based on **Ubuntu 18.04**. If you are using a different environment, you may encounter some errors. You will need to resolve any errors that occur in a different environment yourself if you are not using Ubuntu version 18.04.
+
+> **NOTE**: The easiest way to prepare Ubuntu 18.04 on your laptop is to install a virtual machine.
 
 ## Instructions
 ### Mount devices (Optional)
