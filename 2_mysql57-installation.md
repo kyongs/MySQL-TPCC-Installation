@@ -62,7 +62,7 @@ $ cmake -DWITH_BOOST=/path/to/boost -DCMAKE_INSTALL_PREFIX=/path/to/dir
 ```
 
 4. Then, build and install the source code:
-(8: # of cores in your machine, can be known by `grep 'cpu cores' /proc/cpuinfo | uniq` command.)
+(8: # of cores in your machine, can be known by using `grep 'cpu cores' /proc/cpuinfo | uniq` command.)
 
 ```bash
 $ make -j8 install
@@ -74,6 +74,7 @@ $ make -j8 install
 
 ```bash
 $ ./bin/mysqld --initialize --user=mysql --datadir=/path/to/datadir --basedir=/path/to/basedir
+# ex) $ ./bin/mysqld --initialize --user=mysql --datadir=/home/vldb/test-data --basedir=/usr/local/mysql
 ```
 
 6. Reset the root password:
