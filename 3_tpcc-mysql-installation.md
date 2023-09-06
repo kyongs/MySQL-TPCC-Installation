@@ -23,7 +23,7 @@ $ cd tpcc-mysql/src
 $ make
 ```
 
-3. Before running the benchmark, you should create a database for the TPC-C test. Go to the MySQL base directory and run the following commands:
+3. Before running the benchmark, you should create a database for the TPC-C test. Go to the **MySQL base directory** (i.e. /usr/local/mysql) and run the following commands:
 
 ```bash
 $ ./bin/mysql -u root -p -e "CREATE DATABASE tpcc;"
