@@ -10,6 +10,7 @@ In this article, you will learn how to run the TPC-C benchmark on MySQL 5.7. Fol
 ## Instructions
 ### Mount devices (Optional)
 - If you have more than one storage device on your PC, read and try [this guide](1_mount_devices.md) to separate data and log devices.
+- Students who are using labtop, skip this part.
 
 ### 1. Install MySQL 5.7
 - Follow the [installation guide](2_mysql57-installation.md) to install MySQL 5.7 source code version.
