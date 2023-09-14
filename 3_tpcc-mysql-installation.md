@@ -64,6 +64,10 @@ Loading Item
 
 In this case, database size is about 2GB (= 20 warehouses).
 
+> After loading data, backup the test directory for the future experiments. <br/>
+> ```$ cp -r /path/to/data-dir /path/to/backup/data-dir ``` <br/>
+> ``` ex) $ cp -r /home/vldb/test-data /home/vldb/backup/test-data```
+
 5. After loading, run the TPC-C test:
 
 ```bash
