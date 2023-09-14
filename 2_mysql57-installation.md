@@ -8,6 +8,11 @@ Building MySQL 5.7 from the source code enables you to customize build parameter
 
 ### Prerequisites
 
+```
+$ sudo apt-get update
+$ sudo apt-get pkg-config
+$ sudo apt-get install git
+```
 - libreadline
 
 ```bash
