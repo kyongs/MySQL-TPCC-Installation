@@ -27,6 +27,7 @@ $ make
 3. Before running the benchmark, you should create a database for the TPC-C test. Go to the **MySQL base directory** (i.e. /usr/local/mysql) and run the following commands:
 
 ```bash
+$ cd /path/to/base/directory  ex) cd /usr/local/mysql
 $ ./bin/mysql -u root -p -e "CREATE DATABASE tpcc;"
 $ ./bin/mysql -u root -p tpcc < /path/to/tpcc-mysql/create_table.sql
 $ ./bin/mysql -u root -p tpcc < /path/to/tpcc-mysql/add_fkey_idx.sql
