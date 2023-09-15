@@ -13,6 +13,7 @@ $ sudo apt-get install libmysqlclient-dev
 1. Clone *tpcc-mysql* from the [Percona GitHub repository](https://github.com/Percona-Lab/tpcc-mysql):
 
 ```bash
+$ cd ~
 $ git clone https://github.com/Percona-Lab/tpcc-mysql.git
 ```
 
