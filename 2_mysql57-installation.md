@@ -105,8 +105,18 @@ root:mysql> set password = password('yourPassword');
 root:mysql> quit;
 ```
 
-7. Open `.bashrc` and add MySQL installation path to your path:
+7. Open `.bashrc` and add MySQL installation path to your path: <br/>
 
+※ Useful vi shortcuts. Refer to the [link](https://www.cs.colostate.edu/helpdocs/vi.html). (vi 커맨드를 모르시는 분들을 위한 참고용)
+```
+$ vi <filename> — Open or edit a file.
+
+- i — Switch to Insert mode.
+- Esc — Switch to Command mode.
+- :w — Save and continue editing.
+- :wq = Save and quit vi
+```
+  
 ```bash
 $ vi ~/.bashrc
 
