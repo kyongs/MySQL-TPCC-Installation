@@ -9,7 +9,7 @@
 3. **No space left when downloading boost file**
 
    ```
-   $ sudo lvextend -l +100%FREE -n /dev/ubuntu-vg/ubuntu -lv
+   $ sudo lvextend -l +100%FREE -n /dev/ubuntu-vg/ubuntu-lv
    $ sudo resize2fs /dev/mapper/ubuntu--vg-ubuntu--lv
    ```
 
