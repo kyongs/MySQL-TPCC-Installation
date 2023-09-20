@@ -18,4 +18,5 @@ In this article, you will learn how to run the TPC-C benchmark on MySQL 5.7. Fol
 ### 2. Install mysql-tpcc
 - Follow the [installation guide](3_tpcc-mysql-installation.md) to install tpcc-mysql.
 - Refer to the [performance analysis guide](4_performance_analysis.md) to gather performance metrics while running the TPC-C benchmark on MySQL 5.7.
+- [link](./FAQ.md)
 
